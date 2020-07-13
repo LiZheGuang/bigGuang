@@ -7,7 +7,7 @@ title: 前端圈
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: 前端圈
 language: en
 timezone: ''
 
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: yilia-plus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -101,3 +101,22 @@ deploy:
   type: git
   branch: master
   repo: git@github.com:LiZheGuang/zhaiGuang.git
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
